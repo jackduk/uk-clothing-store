@@ -24,7 +24,7 @@ An item is covered by PayPal Buyer Protection if:
 
 <li>You use PayPal to pay for the item.</li>
 
-<li>You correspond with the arksurplus.com using the email address info@arksurplus.co.uk.</li>
+<li>You correspond with the arksurplus.co.uk using the Contact Us form.</li>
 
 <li>The seller’s listing is for a physical item—services and intangible items aren’t covered.</li>
 
