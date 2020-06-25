@@ -1,0 +1,124 @@
+<!--   <label for="{{ page.identifier }}-qty">Quantity:</label>
+  <input type="number" id="{{ product.identifier }}-qty" class="qty" min="1" value="1" /> -->
+  {% if page.identifier == "product1" %}
+  <button
+    class="buy-button snipcart-add-item"
+    data-item-quantity="1"
+    data-item-id=          "{{ page.identifier }}"
+    data-item-name=        "{{ page.name }}"
+    data-item-price=       "{{ page.price }}"
+    data-item-image=       "{{ page.image }}"
+    data-item-url=         "{{ page.url | relative_url }}"
+    data-item-description= "{{ page.description }}"
+	data-item-weight=      "{{ page.weight }}"
+    data-item-custom1-name="Select Color"
+    data-item-custom1-options="Black|Navy"
+    data-item-custom2-name="Waist Size"
+    data-item-custom2-options="28|30|32|36|38|40|42|44|46|48|50|52|58"
+    data-item-custom3-name="Inside Leg"
+    data-item-custom3-options="29''Short|31''Regular|33''Long">
+    Add to cart (£{{ page.price }})
+  </button>
+  {% endif %}
+  {% if page.identifier == "product2" %}
+  <button
+    class="buy-button snipcart-add-item"
+    data-item-quantity="1"
+    data-item-id=          "{{ page.identifier }}"
+    data-item-name=        "{{ page.name }}"
+    data-item-price=       "{{ page.price }}"
+    data-item-image=       "{{ page.image }}"
+    data-item-url=         "{{ page.url | relative_url }}"
+	data-item-weight=      "{{ page.weight }}"
+    data-item-description= "{{ page.description }}"
+    data-item-custom2-name="Shoe Size"
+    data-item-custom2-options="3|4|5|6|7|8|9|10|11|12|13|14">
+    Add to cart (£{{ page.price }})
+  </button>
+  {% endif %}
+  {% if page.identifier == "product3" %}
+  <button
+    class="buy-button snipcart-add-item"
+    data-item-quantity="1"
+    data-item-id=          "{{ page.identifier }}"
+    data-item-name=        "{{ page.name }}"
+    data-item-price=       "{{ page.price }}"
+    data-item-image=       "{{ page.image }}"
+    data-item-url=         "{{ page.url | relative_url }}"
+    data-item-description= "{{ page.description }}"
+	data-item-weight=      "{{ page.weight }}"
+    data-item-custom1-name="Select Color"
+    data-item-custom1-options="Black|Navy"
+    data-item-custom2-name="Waist Size"
+    data-item-custom2-options="28|30|32|36|38|40|42|44|46|48|50|52"
+    data-item-custom3-name="Inside Leg"
+    data-item-custom3-options="31''Regular|33''Long">
+    Add to cart (£{{ page.price }})
+  </button>
+  {% endif %}
+  {% if page.identifier == "product4" %}
+  <button
+    class="buy-button snipcart-add-item"
+    data-item-quantity="1"
+    data-item-id=          "{{ page.identifier }}"
+    data-item-name=        "{{ page.name }}"
+    data-item-price=       "{{ page.price }}"
+    data-item-image=       "{{ page.image }}"
+    data-item-url=         "{{ page.url | relative_url }}"
+    data-item-description= "{{ page.description }}"
+	data-item-weight=      "{{ page.weight }}"
+    data-item-custom1-name="Select Color"
+    data-item-custom1-options="Black|Navy"
+    data-item-custom2-name="Waist Size"
+    data-item-custom2-options="28|30|32|36|38|40|42|44|46|48|50|52"
+    data-item-custom3-name="Inside Leg"
+    data-item-custom3-options="31''Regular|33''Long">
+    Add to cart (£{{ page.price }})
+  </button>
+  {% endif %}
+  {% if page.identifier == "product5" %}
+  <button
+    class="buy-button snipcart-add-item"
+    data-item-quantity="1"
+    data-item-id=          "{{ page.identifier }}"
+    data-item-name=        "{{ page.name }}"
+    data-item-price=       "{{ page.price }}"
+    data-item-image=       "{{ page.image }}"
+    data-item-url=         "{{ page.url | relative_url }}"
+	data-item-weight=      "{{ page.weight }}"
+    data-item-description= "{{ page.description }}"
+    data-item-custom2-name="Shoe Size"
+    data-item-custom2-options="6UK/39EURO|7UK/41EURO|8UK/42EURO|10UK/44EURO">
+    Add to cart (£{{ page.price }})
+  </button>
+  {% endif %}
+  {% if page.identifier == "product6" %}
+  <button
+    class="buy-button snipcart-add-item"
+    data-item-quantity="1"
+    data-item-id=          "{{ page.identifier }}"
+    data-item-name=        "{{ page.name }}"
+    data-item-price=       "{{ page.price }}"
+    data-item-image=       "{{ page.image }}"
+    data-item-url=         "{{ page.url | relative_url }}"
+	data-item-weight=      "{{ page.weight }}"
+    data-item-description= "{{ page.description }}"
+    data-item-custom2-name="Shoe Size"
+    data-item-custom2-options="6UK/39EURO|7UK/41EURO|8UK/42EURO|9UK/43EURO">
+    Add to cart (£{{ page.price }})
+  </button>
+  {% endif %}
+  {% if page.identifier != "product1" and page.identifier != "product2" and page.identifier != "product3" and page.identifier != "product4" and page.identifier != "product5" and page.identifier != "product6" %}
+  <button
+    class="buy-button snipcart-add-item"
+    data-item-quantity="1"
+    data-item-id=          "{{ page.identifier }}"
+    data-item-name=        "{{ page.name }}"
+    data-item-price=       "{{ page.price }}"
+    data-item-image=       "{{ page.image }}"
+    data-item-url=         "{{ page.url | relative_url }}"
+	data-item-weight=      "{{ page.weight }}"
+    data-item-description= "{{ page.description }}">
+    Add to cart (£{{ page.price }})
+  </button>
+  {% endif %}

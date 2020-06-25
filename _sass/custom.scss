@@ -1,0 +1,57 @@
+a {
+  color: $link-color;
+}
+.site-header {
+  .cart .header__checkout {
+    margin: 12px;
+    background: transparent;
+    border: none;
+  }
+ .site-title {
+  color: $brand-color;
+}
+}
+.products {
+  padding: 20px 0;
+  h2 {
+    font-weight: 800;
+    font-size: 3rem;
+    color: $brand-color;
+    text-align: center;
+  }
+}
+.product_grid {
+background: #fdfdfd;
+padding: 50px 20px;
+.card {
+  padding: 20px;
+  h3 {
+    font-weight: 800;
+    color: $brand-color;
+    text-align: center;
+  }
+  img {
+    border: none;
+    max-width: 100%;
+    max-height: 250px; /*Damian*/
+  }
+}
+}
+img {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border: 1px rgb(100, 96, 96);
+  border-style: solid
+}
+.call {
+  button {
+   display: block;
+   border: none;
+   background: $button-color;
+   color: $background-color;
+   width: 100%;
+   padding: 10px;
+   text-transform: uppercase;
+  }
+}
