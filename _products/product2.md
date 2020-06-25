@@ -12,7 +12,7 @@ tags: mens
       work boots
       steel toe
 
-file_guid: w0014032-0851-4418-93e8-785975df7318
+file_guid: 08261835-0851-4418-93e8-785975df7318
 ---
 
 ![]({{"/assets/images/product_02/01.jpg" | relative_url}})

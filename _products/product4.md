@@ -10,7 +10,7 @@ tags: men
       Mens Classic Work Trousers
       Mens Classic Work Trousersk
 
-file_guid: qbjq1021-9127-4e7f-bcdb-dff84a337775
+file_guid: 08261837-9127-4e7f-bcdb-dff84a337775
 ---
 
 ![]({{"/assets/images/product_04/01.jpg" | relative_url}})

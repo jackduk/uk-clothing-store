@@ -9,7 +9,7 @@ weight: 30
 tags: mens
       hiking
       backpak rucksack
-file_guid: UFG1107-9127-4e7f-bcdb-dff84a337775
+file_guid: 08261810-9127-4e7f-bcdb-dff84a337775
 ---
 
 ![]({{"/assets/images/product_07/01.jpg" | relative_url}})

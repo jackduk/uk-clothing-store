@@ -11,7 +11,7 @@ tags: mens
       hiking
       steel toe
 
-file_guid: lxjw1130-9127-4e7f-bcdb-dff84a337775
+file_guid: 08261839-9127-4e7f-bcdb-dff84a337775
 ---
 
 ![]({{"/assets/images/product_06/01.jpg" | relative_url}})

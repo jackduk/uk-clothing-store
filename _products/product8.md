@@ -9,7 +9,7 @@ weight: 30
 tags: mens
       backpak rucksack
       sport
-file_guid: QVW1076-9127-4e7f-bcdb-dff84a337775
+file_guid: 08261811-9127-4e7f-bcdb-dff84a337775
 ---
 
 ![]({{"/assets/images/product_08/01.jpg" | relative_url}})

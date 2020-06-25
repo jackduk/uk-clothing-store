@@ -10,7 +10,7 @@ tags: mens
       boots
       steel toe
 
-file_guid: vivO1015-9127-4e7f-bcdb-dff84a337775
+file_guid: 08261838-9127-4e7f-bcdb-dff84a337775
 ---
 
 ![]({{"/assets/images/product_05/01.jpg" | relative_url}})

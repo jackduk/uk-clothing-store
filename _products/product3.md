@@ -10,7 +10,7 @@ tags: mens
       pants
       cargo
       combat
-file_guid: 79b1504d-9127-4e7f-bcdb-dff84a337775
+file_guid: 08261836-9127-4e7f-bcdb-dff84a337775
 ---
 
 ![]({{"/assets/images/product_03/01.jpg" | relative_url}})
