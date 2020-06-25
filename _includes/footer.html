@@ -12,12 +12,12 @@
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
-              {{ site.contacttxt | escape }}
+              <!--{{ site.contacttxt | escape }}-->
             {%- endif -%}
             </li>
-            {%- if site.email -%}
+            <!--{%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+            {%- endif -%}-->
 			<div id="footer">&copy; Copyright {{ site.title }} 2020</div>
         </ul>
       </div>
